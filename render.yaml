@@ -2,9 +2,4 @@ services:
   - type: web
     name: teknokrat-niaga-website
     env: static
-    buildCommand: echo "No build required"
     staticPublishPath: .
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
